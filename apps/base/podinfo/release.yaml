@@ -25,3 +25,5 @@ spec:
     ingress:
       enabled: true
       className: nginx
+    ui:
+      message: 'Welcome to Flux'
