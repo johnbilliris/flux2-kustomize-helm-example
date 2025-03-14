@@ -25,5 +25,16 @@ spec:
     ingress:
       enabled: true
       className: nginx
+      hosts:
+        - host: podinfo.4.254.13.30.nip.io
+          paths:
+            - /
     ui:
       message: 'Welcome to Flux'
+    service:
+      type: ClusterIP
+      httpPort: 9898
+      enabled: true
+
+      
+
