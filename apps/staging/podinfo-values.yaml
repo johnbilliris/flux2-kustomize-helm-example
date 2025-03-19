@@ -12,7 +12,7 @@ spec:
   values:
     ingress:
       hosts:
-        - host: podinfo.4.254.13.30.nip.io
+        - host: podinfo.20.227.73.231.nip.io
           paths:
             - path: /
               pathType: ImplementationSpecific
