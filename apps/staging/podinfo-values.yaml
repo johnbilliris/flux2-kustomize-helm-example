@@ -14,5 +14,5 @@ spec:
       hosts:
         - host: podinfo.4.254.0.204.nip.io
           paths:
-            - path: /
+            - path: "/"
               pathType: ImplementationSpecific
